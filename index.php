@@ -1,5 +1,5 @@
 <?php
 
-echo "Primeiro arquivo <strong> php </strong>";
+echo "teste alteracao <strong> php </strong>";
 
 ?> 
