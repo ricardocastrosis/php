@@ -7,6 +7,9 @@ if($_POST){
   $email = $_POST['email'];
   $senha = $_POST['senha'];
 
+  //usar esta linha enquanto faz teste com as outras páginas:
+  header("Location: painel.php");
+
   $banco = new Conexao();
 
   $user = new Usuario($banco->getConexao());
